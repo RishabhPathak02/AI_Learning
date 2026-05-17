@@ -2,8 +2,6 @@
 # Ultimate AI Engineer Roadmap 2026 🔥
 ### From Zero to Production-Grade AI Systems
 
-**Ultimate AI Engineer Roadmap 2026** - built specifically for your context as an AI Architect building PrinceSinghAI, PrinceSinghDev, Multi-LLM orchestration, RoadmapAI, CodeLLM, and AskAI, Global AI Search
-
 **What's inside (17 Phases + Capstone):**
 
 The roadmap starts from absolute zero and goes all the way to production-grade AI architecture. Here's the breakdown:
