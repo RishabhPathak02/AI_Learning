@@ -1,0 +1,70 @@
+# ==========================================
+# 1. Virtual Environments (Python environments)
+# ==========================================
+mlops_env/
+env/
+venv/
+.env/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ==========================================
+# 2. Python Bytecode, Cache, aur Logs
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+.pytest_cache/
+.tox/
+.coverage
+htmlcov/
+
+# ==========================================
+# 3. Data aur Machine Learning Models (MLOps Specific)
+# ==========================================
+# Data directories ko ignore karein, data DVC track karega
+data/
+artifacts/
+models/
+outputs/
+
+# Large files ko backup ke taur par ignore karein
+*.csv
+*.json
+*.xlsx
+*.parquet
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.onnx
+*.pb
+
+# ==========================================
+# 4. OS Specific Files & IDEs
+# ==========================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ==========================================
+# 5. Environment Variables & Secrets (Most Important!)
+# ==========================================
+.env
+.flaskenv
+secrets.json
